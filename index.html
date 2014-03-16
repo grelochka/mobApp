@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"> 
+        <title>jQuery Mobile</title>
+
+        
+        <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.css">
+        <script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="jquery.mobile-1.4.2.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="themes/my-custom-theme.css" />
+  		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <style type="text/css">
+        .my_btn{
+        	display: inline-block;
+        	width: 48%;
+        	padding-left: 0;
+        	padding-right: 0;
+        	
+        }
+        .my_footer{
+        	text-align: center;
+
+        }
+        img{
+        	float: left;
+        	width: 30%;
+        }
+        .main_text{
+        	margin-left: 32%;
+        }
+
+        }
+
+
+        </style>
+     </head>
+	<body>
+		
+
+<div data-role="page" id="home_page">
+			<div data-role="header"  class="my_header">
+				<h1>Home</h1>
+				
+				<a href="#" data-role="button" data-rel="back" data-icon="back" class="ui-btn-right"  data-iconpos="right">back</a>
+				<!--a href="#settings" data-icon="gear" class="ui-btn-right">Options</a-->
+			</div>
+			<div data-role="content" >
+			<div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">	
+				<div>
+					<p>Люблю кошек и собак. Это амечательные животные. Сия "проба пера" посвящена одной кошке и одной собаке.
+					</p>
+					<img src="imgs/animals.jpg"><p class="main_text">
+					внезапно, кусок из "Золушки"
+					<br>Once upon a time...
+					<br> Давным-давно жила-была одна счастливая семья: отец, мать и
+их единственная дочка, которую родители очень любили. Много
+лет жили они беззаботно и радостно.
+К несчастью, однажды осенью, когда девочке исполнилось
+шестнадцать лет, ее мать тяжело заболела и через неделю умерла.
+В доме воцарилась глубокая печаль.
+Прошло два года. Отец девочки познакомился с одной вдовой,
+у которой были две дочки, и вскоре женился на ней.
+С первого дня мачеха возненавидела
+свою падчерицу. Она
+заставляла ее делать всю работу
+по дому и не давала ни минуты
+покоя. То и дело слышалось:
+<br>— А ну, пошевеливайся, лентяйка,
+принеси-ка воды!
+<br>— Давай, бездельница, подмети
+пол!
+<br>— Ну, чего ждешь, грязнуля,
+подкинь дров в камин!
+					</p></div>
+				</div>
+			</div>	
+
+			<div data-role="footer"  class="my_footer">	
+				
+				<div data-role="navbar">
+				   <ul>
+				       <li><a href="#cat_page" data-role="button"  >cat</a></li>
+				       <li><a href="#dog_page" data-role="button" >dog</a></li>
+				   </ul>
+				</div>
+
+
+			</div>
+
+		</div>
+
+<div data-role="page" id="cat_page">
+			<div data-role="header" >
+				<h1>cat</h1>
+				<a href="#" data-role="button" data-rel="back" data-icon="back" class="ui-btn-right" data-iconpos="right" >back</a>
+				<!--a href="#settings" data-icon="gear" class="ui-btn-right">Options</a-->
+			</div>
+			<div data-role="content" >	
+				<div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">	
+				<div>
+					<p>О кошках можно говорить бесконечно...но я не буду.
+					</p>
+					<img src="imgs/cat.jpg"><p class="main_text"> На фото представлен обычный суровый дворовый московский кот.
+					<br>За сосиську порвёт любого. Такого все кошки любят, а собаки боятся. Хороший кот. Дачу может охранять.				
+					
+					
+					<br>Опять про Золушку.
+						<br>Волшебница выдолбила тыкву
+						до самой корки, потом прикоснулась
+						к ней своей волшебной
+						палочкой,
+						и тыква мигом превратилась
+						в золочёную карету.
+						Потом волшебница заглянула
+						в мышеловку и увидела, что там
+						сидят шесть живых мышей.
+						Она велела Золушке приоткрыть
+						дверцу мышеловки. Каждую
+						мышь, которая
+						выскакивала
+						оттуда, она трогала волшебной
+						палочкой, и мышка сейчас же
+						превращалась в красивого коня.
+					</p>
+				</div>
+				</div>
+			</div>	
+			<div data-role="footer" >	
+
+			
+				<div data-role="navbar">
+				   <ul>
+				       <li><a href="#dog_page">dog</a></li>
+				       <li><a href="#home_page">home</a></li>
+				   </ul>
+				</div>
+				</div>
+
+		</div>	
+
+
+<div data-role="page" id="dog_page">
+			<div data-role="header" >
+				<h1>dog</h1>
+				<a href="#" data-role="button" data-rel="back" data-icon="back" class="ui-btn-right" data-iconpos="right">back</a>
+				<!--a href="#settings" data-icon="gear" class="ui-btn-right">Options</a-->
+			</div>
+			<div data-role="content" >
+			<div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">		
+				<div>
+					<p>Соба-а-а-а-ка)
+					</p>
+					<img src="imgs/dog.jpg"><p class="main_text"> На фото представлен обычный такой алабай.
+					Порвёт любого  и за просто так.
+					<br>Очаровательная помесь собаки и медведя.
+					<br>
+					<br>"Не люблю больших собак..Никогда не знаешь, кого они жуют.."
+					<br>А мне нравится. Хороший пёс, большой, пушистый.
+					<br> Обойдёмся без Золушки..
+					</p>
+				</div>
+				</div>
+			</div>				
+			<div data-role="footer" >
+				<div data-role="navbar">
+				   <ul>
+				       <li><a href="#cat_page">cat</a></li>
+				       <li><a href="#home_page">home</a></li>
+				   </ul>
+				</div>				
+
+			</div>
+
+		</div>					
+
+	</body>
+</html>	        
